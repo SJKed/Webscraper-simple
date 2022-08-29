@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <title>Observer</title>
+  </head>
+  <body>
+    <div class="left">
+
+      <div class="Titel">
+        <h1>Titel</h1>
+        <input type="text" name="titelInput" id="titelInput" />
+      </div>
+
+      <div class="url">
+        <h1>URL</h1>
+        <input type="text" name="urlInput" id="urlInput" />
+        <input type="checkbox" name="subpagesInput" id="subpagesInput" /> Subpages
+      </div>
+      
+      <div class="seachwords">
+        <h1>Searchwords</h1>
+        <input type="text" name="seachwordsInput" id="seachwordsInput" />
+        <input type="checkbox" name="changesInput" id="changesInput" /> Site changes
+      </div>
+
+      <div class="period">
+        <h1>Period</h1>
+        <input type="date" name="dateOneInput" id="dateOneInput" />
+        <input type="date" name="dateTwoInput" id="dateTwoInput" />
+      </div>
+
+      <div class="frequence">
+        <h1>frequence</h1>
+        <input type="text" name="frequenceInput" id="frequenceInput" />
+        <!-- dropdown -->
+        <select name="frequenceDropdown" id="frequenceDropdown">
+          <option value="minutes">minutes</option>
+          <option value="hours">hours</option>
+          <option value="days">days</option>
+          <option value="weeks">weeks</option>
+          <option value="months">months</option>
+        </select>
+      </div>
+
+      <button>Save</button>
+    </div>
+
+    <div class="right">
+      <h1>Bevakningar</h1>
+    </div>
+  </body>
+</html>
